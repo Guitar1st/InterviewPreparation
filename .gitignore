@@ -1,11 +1,11 @@
 # Common
-.DS_Store
-.idea
-.cproject
-.project
-.settings
-.metadata/
-RemoteSystemsTempFiles/
+*.DS_Store
+*.idea
+*.cproject
+*.project
+*.settings
+*.metadata/
+*RemoteSystemsTempFiles/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
