@@ -11,7 +11,7 @@ Ex2:
     Output: [1, 2, 3]
 """
 import itertools as it
-from src.linked_lists.common import ListNode
+from python_interview_questions.src.linked_lists.common import ListNode
 
 
 def _sequence_into_chunks(sequence, k):

@@ -1,5 +1,5 @@
-from src.linked_lists import common as linked_lists_common
-from src.linked_lists import reverse_by_k
+from python_interview_questions.src.linked_lists import common as linked_lists_common
+from python_interview_questions.src.linked_lists import reverse_by_k
 
 
 class TestCommon:
