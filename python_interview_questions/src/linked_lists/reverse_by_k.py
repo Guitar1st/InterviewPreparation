@@ -1,5 +1,5 @@
 """
-Task from ByteDance phone screen.
+Task from ByteDance phone screen (2020).
 
 Given linked list and k. Reverse it by chunks of k elements.
 k >= 1
