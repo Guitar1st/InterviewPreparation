@@ -9,6 +9,7 @@ from python_interview_questions.src.dynamic_programming import decode_ways
         ("1", 1),
         ("12", 2),
         ("226", 3),
+        ("312", 2),
         ("0", 0),
     ]
 )
