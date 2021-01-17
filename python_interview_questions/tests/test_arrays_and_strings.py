@@ -1,5 +1,6 @@
 import pytest
 import bisect
+from python_interview_questions.src.arrays_and_strings import add_binary
 from python_interview_questions.src.arrays_and_strings import one_away
 from python_interview_questions.src.arrays_and_strings import set_matrix_zeroes
 from python_interview_questions.src.arrays_and_strings import search_insert_position as sip
@@ -59,3 +60,14 @@ def test_search_insert_position():
     targets = [-10] + nums + [100]
     for t in targets:
         assert sip.search_insert_recursive(nums, t) == bisect.bisect_left(nums, t)
+
+
+@pytest.mark.parametrize(
+    ("a", "b", "expected"),
+    [
+        ("11", "1", "100"),
+        ("1010", "1011", "10101"),
+    ]
+)
+def test_add_binary(a, b, expected):
+    assert add_binary.add_binary(a, b) == expected
